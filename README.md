@@ -6,21 +6,21 @@ To perform edge detection using Sobel, Laplacian, and Canny edge detectors.
 Anaconda - Python 3.7
 
 ## Algorithm:
-### Step1:
-<br>
 
+### Step 1:
+HTML content creation
 
-### Step2:
-<br>
+### Step 2:
+Design of webserver workflow
 
-### Step3:
-<br>
+### Step 3:
+Implementation using Python code
 
-### Step4:
-<br>
+### Step 4:
+Serving the HTML pages.
 
-### Step5:
-<br>
+### Step 5:
+Testing the webserver
 
  
 ## Program:
