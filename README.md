@@ -1,4 +1,8 @@
-# Edge-Detection
+### EX.NO : 07
+
+### DATE : 
+
+# <p align="center"> Edge-Detection </p>
 ## Aim:
 To perform edge detection using Sobel, Laplacian, and Canny edge detectors.
 
@@ -8,32 +12,35 @@ Anaconda - Python 3.7
 ## Algorithm:
 
 ### Step 1:
-HTML content creation
+Import the necessary modules.
 
-### Step 2:
-Design of webserver workflow
+### Step2:
+Load a image using imread() from cv2 module.
 
-### Step 3:
-Implementation using Python code
+### Step3:
+Convert the image to grayscale.
 
-### Step 4:
-Serving the HTML pages.
+### Step4:
+Using Sobel operator from cv2,detect the edges of the image.
 
-### Step 5:
-Testing the webserver
+### Step5:
+Using Laplacian operator from cv2,detect the edges of the image.
+
+### Step6:
+Using Canny operator from cv2,detect the edges of the image.
 
  
 ## Program:
 
 
-# Import the packages
+## Import the packages
 ```python 3
 
 import cv2
 import matplotlib.pyplot as plt
 
 ```
-# Load the image, Convert to grayscale and remove noise
+## Load the image, Convert to grayscale and remove noise
 
 ```python 3
 
@@ -54,7 +61,7 @@ plt.yticks([])
 ```
 
 
-# SOBEL EDGE DETECTOR
+## SOBEL EDGE DETECTOR
 ```python3
 
 sobelx = cv2.Sobel(img,cv2.CV_64F,1,0,ksize=5)
@@ -77,7 +84,7 @@ plt.xticks([])
 plt.yticks([])
 
 ```
-# LAPLACIAN EDGE DETECTOR
+## LAPLACIAN EDGE DETECTOR
 
 ```python 3
 
@@ -90,7 +97,7 @@ plt.yticks([])
 ```
 
 
-# CANNY EDGE DETECTOR
+## CANNY EDGE DETECTOR
 
 ```python 3
 canny_edges=cv2.Canny(img,120,150)
